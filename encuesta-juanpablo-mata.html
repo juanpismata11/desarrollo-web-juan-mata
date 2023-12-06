@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilos-juanpablo-mata.css">
+    <title>Formulario Juan Pablo Mata</title>
+  </head>
+
+  <body id="mata" class="container mt-5">
+    <h2 class="mb-3">Formulario con Javascript</h2>
+
+    <form id='formularioContacto' action="resultado-juanpablo-matas.html" method="post">
+      
+        <div class="mb-3">
+            <label for="edad" class="form-label">Edad:</label>
+            <input type="number" class="form-control" id="edad" name="edad">
+        </div>
+
+        <div class="mb-3">
+            <label for="sexo" class="form-label">Sexo:</label>
+            <select name="select" id="sexo" class="form-select">
+              <option value="hombre">Hombre</option>
+              <option value="mujero">Mujer</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label for="educacion" class="form-label">Nivel de educación:</label>
+            <select name="educacion" class="form-select" id="educacion">
+              <option value="preescolar">Preescolar</option>
+              <option value="primaria">Primaria</option>
+              <option value="secundaria">Secundaria</option>
+              <option value="bachillerato">Bachillerato</option>
+              <option value="universidad">Universidad</option>
+              <option value="posgrado">Posgrado</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+          <label for="ocupacion" class="form-label">Ocupación:</label>
+          <input type="text" class="form-control" id="ocupacion" name="ocupacion">
+      </div>
+
+        <button id="aguirre" type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+
+    <script src="script-juanpablo-mata.js"></script>
+
+  </body>
+      
+</html>

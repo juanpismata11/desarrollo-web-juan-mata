@@ -1,0 +1,24 @@
+body{
+  font-family:'Times New Roman', Times, serif;
+}
+
+body div{
+  font-weight: bold;
+  color:blue;
+}
+
+@media only screen and (max-width: 1000px) {
+  body{
+    background-color: gray;
+  }
+
+  body div{
+    font-size: 30px;
+    font-family:arial;
+  }
+
+  button{
+    padding:40px;
+  }
+
+}
